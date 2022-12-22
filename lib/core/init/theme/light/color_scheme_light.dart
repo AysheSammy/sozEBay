@@ -9,15 +9,14 @@ class ColorSchemeLight {
   }
 
   ColorSchemeLight._init();
-
-  final Color alizarinCrimson = const Color(0xffE11E3C);
-  final Color alabaster = const Color(0xffF8F8F8);
-  final Color athensGray = const Color(0xffE8EAED);
+  final Color alizarinCrimson = const Color(0xffF7941D);
+  final Color alabaster = const Color(0xffE0FBFC);
+  final Color athensGray = const Color(0xff98C1D9);
   final Color hintOfRed = const Color(0xffFDFCFC);
 
   final Color fireFly = const Color(0xff0A151F);
-  final Color riverBed = const Color(0xff48515B);
-  final Color slateGray = const Color(0xff758291);
+  final Color riverBed = const Color(0xff293241);
+  final Color slateGray = const Color(0xff4A1C77);
 
   final Brightness brightnessLight = Brightness.light;
   final SystemUiOverlayStyle systemOverlayStyle = SystemUiOverlayStyle.light;

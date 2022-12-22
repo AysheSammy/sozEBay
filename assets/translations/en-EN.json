@@ -1,0 +1,22 @@
+{
+  "home": {
+    "home": "Home page",
+    "dictionary": "Dictionary",
+    "images": "Images",
+    "alarm": "Alarm",
+    "settings": "Settings"
+  },
+  "button": {
+    "changeTheme": "Change theme",
+    "yes": "Yes",
+    "no": "No",
+    "cancel": "Cancel",
+    "ok": "Ok"
+  },
+  "info": {
+    "anErrorOccured": "An error occured.",
+    "notFound": "Not found.",
+    "deleteAll": "Delet all.",
+    "reset": "Reset."
+  }
+}

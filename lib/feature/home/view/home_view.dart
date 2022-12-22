@@ -5,16 +5,17 @@ import 'package:sozEBay/pages/dictionary_page.dart';
 import 'package:sozEBay/pages/images_page.dart';
 import 'package:sozEBay/pages/notification_page.dart';
 
-import '../core/constants/app/app_constants.dart';
+import '../../../core/constants/app/app_constants.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+
+class HomeView extends StatefulWidget {
+  const HomeView({Key? key}) : super(key: key);
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<HomeView> createState() => _HomeViewState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomeViewState extends State<HomeView> {
 
   List buttons = [
     ["Dictionary", const DictionaryPage(), Icons.receipt_long_rounded, Colors.white],
@@ -88,7 +89,7 @@ class _HomePageState extends State<HomePage> {
           Column(
             children: List.generate(
               buttons.length,
-              (ind) => Padding(
+                  (ind) => Padding(
                 padding: const EdgeInsets.only(top: 20),
                 child: InkWell(
                   onTap: () {

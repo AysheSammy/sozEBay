@@ -9,15 +9,15 @@ class ColorSchemeDark {
   }
 
   ColorSchemeDark._init();
-  final Color alto = const Color(0xffd1cfcf);
-  final Color hitGray = const Color(0xff9faab5);
+  final Color alto = const Color(0xffE0FBFC);
+  final Color hitGray = const Color(0xff98C1D9);
   final Color silverSand = const Color(0xffb6b8ba);
-  final Color shark = const Color(0xff1c1e21);
+  final Color shark = const Color(0xff293241);
   final Color codGray = const Color(0xff191919);
 
   final Color mineShaft = const Color(0xff252525);
 
-  final Color alizarinCrimson = const Color(0xffE11E3C);
+  final Color alizarinCrimson = const Color(0xffF7941D);
 
   final Brightness brightnessDark = Brightness.dark;
   final SystemUiOverlayStyle systemOverlayStyle = SystemUiOverlayStyle.light;
