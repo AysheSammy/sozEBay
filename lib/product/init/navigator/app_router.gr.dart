@@ -35,10 +35,10 @@ class _$AppRouter extends RootStackRouter {
         child: const DictionaryView(),
       );
     },
-    ImagesRoute.name: (routeData) {
+    NotificationsRoute.name: (routeData) {
       return MaterialPageX<dynamic>(
         routeData: routeData,
-        child: const ImagesView(),
+        child: const NotificationsView(),
       );
     },
     AlarmRoute.name: (routeData) {
@@ -71,7 +71,7 @@ class _$AppRouter extends RootStackRouter {
               parent: HomeRoute.name,
             ),
             RouteConfig(
-              ImagesRoute.name,
+              NotificationsRoute.name,
               path: 'images',
               parent: HomeRoute.name,
             ),
@@ -128,15 +128,15 @@ class DictionaryRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
-/// [ImagesView]
-class ImagesRoute extends PageRouteInfo<void> {
-  const ImagesRoute()
+/// [NotificationsView]
+class NotificationsRoute extends PageRouteInfo<void> {
+  const NotificationsRoute()
       : super(
-          ImagesRoute.name,
+          NotificationsRoute.name,
           path: 'images',
         );
 
-  static const String name = 'ImagesRoute';
+  static const String name = 'NotificationsRoute';
 }
 
 /// generated route for
