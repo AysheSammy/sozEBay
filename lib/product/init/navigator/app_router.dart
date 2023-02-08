@@ -4,7 +4,7 @@ import 'package:sozEBay/feature/dictionary/view/dictionary_view.dart';
 
 import '../../../feature/alarm/view/alarm_view.dart';
 import '../../../feature/home/view/home_view.dart';
-import '../../../feature/images/view/images_view.dart';
+import '../../../feature/notification/view/notifications_view.dart';
 import '../../../feature/settings/view/settings_view.dart';
 import '../../../feature/splash/view/splash_view.dart';
 
@@ -14,7 +14,7 @@ part 'app_router.gr.dart';
   AutoRoute(page: SplashView, path: '/', initial: true),
   AutoRoute(page: HomeView, path: 'home', children: [
     AutoRoute(page: DictionaryView, path: 'dictionary'),
-    AutoRoute(page: ImagesView, path: 'images'),
+    AutoRoute(page: NotificationsView, path: 'images'),
     AutoRoute(page: AlarmView, path: 'alarm'),
     AutoRoute(page: SettingsView, path: 'settings'),
   ]),

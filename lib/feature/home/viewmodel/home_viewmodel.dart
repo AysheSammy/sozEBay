@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:sozEBay/feature/alarm/view/alarm_view.dart';
 import 'package:sozEBay/feature/dictionary/view/dictionary_view.dart';
-import 'package:sozEBay/feature/images/view/images_view.dart';
+import 'package:sozEBay/feature/notification/view/notifications_view.dart';
 import 'package:sozEBay/feature/settings/view/settings_view.dart';
 
 import '../../../product/constants/enums/string/string_constants.dart';
@@ -21,7 +21,7 @@ class HomeViewModel {
     ],
     [
       LocaleKeys.home_images.tr(),
-      const ImagesView(),
+      const NotificationsView(),
       Icons.image_outlined,
       Colors.white,
     ],
