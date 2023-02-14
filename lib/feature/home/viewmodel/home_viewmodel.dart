@@ -20,9 +20,9 @@ class HomeViewModel {
       Colors.white,
     ],
     [
-      LocaleKeys.home_images.tr(),
+      LocaleKeys.home_notifications.tr(),
       const NotificationsView(),
-      Icons.image_outlined,
+      Icons.notifications_active_outlined,
       Colors.white,
     ],
     [

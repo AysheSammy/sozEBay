@@ -3,7 +3,7 @@
 abstract class  LocaleKeys {
   static const home_home = 'home.home';
   static const home_dictionary = 'home.dictionary';
-  static const home_images = 'home.images';
+  static const home_notifications = 'home.notifications';
   static const home_alarm = 'home.alarm';
   static const home_settings = 'home.settings';
   static const home = 'home';
@@ -18,5 +18,6 @@ abstract class  LocaleKeys {
   static const info_deleteAll = 'info.deleteAll';
   static const info_reset = 'info.reset';
   static const info = 'info';
+  static const settings_language = 'settings.language';
 
 }

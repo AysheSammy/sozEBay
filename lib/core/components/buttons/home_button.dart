@@ -6,8 +6,8 @@ class HomeButton extends StatelessWidget {
   final Color _iconColor;
   final String _buttonText;
 
-
-  const HomeButton(this._route, this._icon, this._iconColor, this._buttonText, {super.key});
+  const HomeButton(this._route, this._icon, this._iconColor, this._buttonText,
+      {super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +22,7 @@ class HomeButton extends StatelessWidget {
         );
       },
       child: Container(
-        padding: EdgeInsets.symmetric(horizontal: 20),
+        padding: const EdgeInsets.symmetric(horizontal: 20),
         width: size.width * 0.8,
         height: 60,
         decoration: BoxDecoration(
@@ -40,7 +40,7 @@ class HomeButton extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Icon(_icon, color: _iconColor,),
+            Icon(_icon, color: _iconColor),
             Text(
               _buttonText,
               style: const TextStyle(
@@ -49,7 +49,10 @@ class HomeButton extends StatelessWidget {
                 color: Color.fromRGBO(224, 251, 252, 1),
               ),
             ),
-            Icon(Icons.arrow_forward_ios_rounded, color: Colors.white,)
+            const Icon(
+              Icons.arrow_forward_ios_rounded,
+              color: Colors.white,
+            )
           ],
         ),
       ),

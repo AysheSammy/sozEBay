@@ -1,22 +1,28 @@
 {
   "home": {
-    "home": "Home page",
-    "dictionary": "Dictionary",
-    "images": "Images",
+    "home": "Baş sahypa",
+    "dictionary": "Sözlük",
+    "notifications": "Bildirişler",
     "alarm": "Alarm",
-    "settings": "Settings"
+    "settings": "Sazlamalar"
   },
+
   "button": {
-    "changeTheme": "Change theme",
-    "yes": "Yes",
-    "no": "No",
-    "cancel": "Cancel",
-    "ok": "Ok"
+    "changeTheme": "Temany çalyş",
+    "yes": "Hawa",
+    "no": "Ýok",
+    "cancel": "Ýatyr",
+    "ok": "Bolýar"
   },
+
   "info": {
-    "anErrorOccured": "An error occured.",
-    "notFound": "Not found.",
-    "deleteAll": "Delet all.",
-    "reset": "Reset."
+    "anErrorOccured": "Bir ýalňyşlyk bar.",
+    "notFound": "Tapylmady.",
+    "deleteAll": "Hemmesini poz.",
+    "reset": "Täzele."
+  },
+
+  "settings": {
+    "language": "Dil"
   }
 }

@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:sozEBay/product/init/language/locale_keys.g.dart';
 import '../viewmodel/dictionary_viewmodel.dart';
@@ -17,7 +18,7 @@ class _DictionaryViewState extends State<DictionaryView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(LocaleKeys.home_dictionary),
+        title: Text(LocaleKeys.home_dictionary.tr()),
         centerTitle: true,
         actions: [
           IconButton(

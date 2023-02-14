@@ -2,7 +2,7 @@
   "home": {
     "home": "Главная страница",
     "dictionary": "Словарь",
-    "images": "Картинки",
+    "notifications": "Уведомления",
     "alarm": "Будильник",
     "settings": "Настройки"
   },
@@ -18,5 +18,8 @@
     "notFound": "Не найден.",
     "deleteAll": "Удалить все.",
     "reset": "Перезагрузить."
+  },
+  "settings": {
+    "language": "Язык"
   }
 }
