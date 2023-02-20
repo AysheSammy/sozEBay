@@ -27,13 +27,16 @@ dependencies:
   hive_flutter: ^1.1.0
   kartal: ^2.7.0
 
+  # Alarm Manager
+  android_alarm_manager_plus: ^2.1.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-  auto_route_generator: ^5.0.2
-  build_runner: ^2.2.0
-  hive_generator: ^1.1.3
+  auto_route_generator: ^5.0.3
+  build_runner: ^2.3.3
+  hive_generator: ^2.0.0
 
 flutter:
   uses-material-design: true
@@ -41,6 +44,7 @@ flutter:
     - assets/icons/
     - assets/images/
     - assets/translations/
+    - assets/words/words.json
 
   fonts:
     - family: SFPro

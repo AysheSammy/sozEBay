@@ -10,7 +10,6 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-
   @override
   void initState() {
     super.initState();
@@ -52,7 +51,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 height: 200,
               ),
             ),
-            const Padding(
+            Padding(
               padding: EdgeInsets.only(top: 20),
               child: Text(
                 "SozEBay",
@@ -60,6 +59,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 style: TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
+                  color: Theme.of(context).colorScheme.onPrimary,
                 ),
               ),
             ),

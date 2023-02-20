@@ -46,6 +46,10 @@ class AppThemeLight extends AppTheme with IThemeLight {
         onBackground: colorSchemeLight!.riverBed,
         surface: colorSchemeLight!.alizarinCrimson,
         onSurface: colorSchemeLight!.riverBed,
+        onTertiary: colorSchemeLight!.buttonColor1,
+        tertiary: colorSchemeLight!.buttonColor2,
+        tertiaryContainer: colorSchemeLight!.bannerColor1,
+        onTertiaryContainer: colorSchemeLight!.bannerColor2,
       );
 
   AppBarTheme get _appBarTheme => AppBarTheme(
@@ -77,6 +81,7 @@ class AppThemeLight extends AppTheme with IThemeLight {
 
   InputDecorationTheme get _inputDecorationTheme => InputDecorationTheme(
         fillColor: colorSchemeLight!.hintOfRed,
+        hintStyle: TextStyle(color: _colorScheme.onSecondary, fontSize: 16),
       );
 
   TextSelectionThemeData get _textSelectionTheme => TextSelectionThemeData(

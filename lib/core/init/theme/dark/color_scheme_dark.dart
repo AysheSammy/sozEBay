@@ -16,9 +16,15 @@ class ColorSchemeDark {
   ]);
 
   final RadialGradient buttonGradient = const RadialGradient(colors: [
-    Color.fromRGBO(89, 86, 212, 1),
+    Color.fromRGBO(90, 133, 219, 1.0),
     Color.fromRGBO(0, 7, 36, 1),
   ]);
+
+  final Color bannerColor1 = const Color.fromRGBO(36, 13, 102, 1);
+  final Color bannerColor2 = const Color.fromRGBO(8, 7, 50, 1);
+
+  final Color buttonColor1 = const Color.fromRGBO(89, 86, 212, 1);
+  final Color buttonColor2 = const Color.fromRGBO(0, 7, 36, 1);
 
   final Color textColor = const Color.fromRGBO(41, 50, 65, 1);
   final Color codGray = const Color.fromRGBO(0, 7, 36, 1);

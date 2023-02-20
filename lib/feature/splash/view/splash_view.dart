@@ -38,37 +38,38 @@ class _SplashViewState extends State<SplashView> {
   Widget _body(BuildContext context) {
     double devHeight = MediaQuery.of(context).size.height;
     return TweenAnimationBuilder(
-        tween: Tween<double>(begin: 1, end: devHeight / 3),
-        duration: const Duration(seconds: 2),
-        curve: Curves.bounceOut,
-        builder: (BuildContext context, double val, child) {
-          return Padding(
-            padding: EdgeInsets.only(top: val),
-            child: child,
-          );
-        },
-        child: ListView(
-          children: [
-            Center(
-              child: SvgPicture.asset(
-                "assets/icons/logo.svg",
-                width: 200,
-                height: 200,
+      tween: Tween<double>(begin: 1, end: devHeight / 3),
+      duration: const Duration(seconds: 2),
+      curve: Curves.bounceOut,
+      builder: (BuildContext context, double val, child) {
+        return Padding(
+          padding: EdgeInsets.only(top: val),
+          child: child,
+        );
+      },
+      child: ListView(
+        children: [
+          Center(
+            child: SvgPicture.asset(
+              "assets/icons/logo.svg",
+              width: 200,
+              height: 200,
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(top: 20),
+            child: Text(
+              "SozeBay",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 30,
+                fontWeight: FontWeight.bold,
+                color: Theme.of(context).colorScheme.onPrimary,
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.only(top: 20),
-              child: Text(
-                "SozEBay",
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 30,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
-          ],
-        ),
-      );
+          ),
+        ],
+      ),
+    );
   }
 }

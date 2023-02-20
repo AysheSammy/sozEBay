@@ -21,12 +21,16 @@ class ColorSchemeLight {
   ]);
 
   final Color textColor = const Color.fromRGBO(41, 50, 65, 1);
+  final Color buttonColor1 = const Color.fromRGBO(237, 184, 184, 1);
+  final Color buttonColor2 = const Color.fromRGBO(135, 122, 231, 1);
 
 
+  final Color bannerColor1 = const Color.fromRGBO(243, 0, 0, 0.33);
+  final Color bannerColor2 = const Color.fromRGBO(74, 55, 226, 0.33);
 
 
   final Color alizarinCrimson = const Color(0xffF7941D);
-  final Color alabaster = const Color(0xffE0FBFC);
+  final Color alabaster = const Color.fromRGBO(243, 243, 243, 1.0);
   final Color athensGray = const Color(0xff98C1D9);
   final Color hintOfRed = const Color(0xffFDFCFC);
 

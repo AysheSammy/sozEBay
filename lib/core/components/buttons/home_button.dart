@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sozEBay/core/init/theme/notifier/theme_notifier.dart';
 
 class HomeButton extends StatelessWidget {
   final _route;
@@ -27,13 +28,12 @@ class HomeButton extends StatelessWidget {
         height: 60,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(35),
-          gradient: const LinearGradient(
+          gradient: RadialGradient(
+            radius: 3,
             colors: [
-              Color.fromRGBO(61, 90, 128, 1),
-              Color.fromRGBO(74, 28, 119, 1),
+              Theme.of(context).colorScheme.onTertiary,
+              Theme.of(context).colorScheme.tertiary,
             ],
-            begin: Alignment.topRight,
-            end: Alignment.bottomLeft,
           ),
         ),
         child: Row(
@@ -43,15 +43,15 @@ class HomeButton extends StatelessWidget {
             Icon(_icon, color: _iconColor),
             Text(
               _buttonText,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w600,
-                color: Color.fromRGBO(224, 251, 252, 1),
+                color: _iconColor,
               ),
             ),
-            const Icon(
+            Icon(
               Icons.arrow_forward_ios_rounded,
-              color: Colors.white,
+              color: _iconColor,
             )
           ],
         ),

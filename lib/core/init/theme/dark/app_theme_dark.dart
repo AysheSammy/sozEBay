@@ -6,6 +6,7 @@ import 'theme_dark_interface.dart';
 
 class AppThemeDark extends AppTheme with IThemeDark {
   static AppThemeDark? _instance;
+
   static AppThemeDark get instance {
     _instance ??= AppThemeDark._init();
     return _instance!;
@@ -15,67 +16,76 @@ class AppThemeDark extends AppTheme with IThemeDark {
 
   @override
   ThemeData get theme => ThemeData.dark().copyWith(
-    textTheme: ThemeData.light().textTheme.apply(fontFamily: ApplicationConstants.fontFamily),
-    primaryTextTheme: ThemeData.light().textTheme.apply(fontFamily: ApplicationConstants.fontFamily),
-    colorScheme: _colorScheme,
-    appBarTheme: _appBarTheme,
-    tabBarTheme: _tabBarTheme,
-    inputDecorationTheme: _inputDecorationTheme,
-    textSelectionTheme: _textSelectionTheme,
-    textButtonTheme: _textButtonTheme,
-    elevatedButtonTheme: _elevatedButtonTheme,
-    scaffoldBackgroundColor: colorSchemeDark!.shark,
-    cardColor: _colorScheme.primary,
-  );
+        textTheme: ThemeData.light()
+            .textTheme
+            .apply(fontFamily: ApplicationConstants.fontFamily),
+        primaryTextTheme: ThemeData.light()
+            .textTheme
+            .apply(fontFamily: ApplicationConstants.fontFamily),
+        colorScheme: _colorScheme,
+        appBarTheme: _appBarTheme,
+        tabBarTheme: _tabBarTheme,
+        inputDecorationTheme: _inputDecorationTheme,
+        textSelectionTheme: _textSelectionTheme,
+        textButtonTheme: _textButtonTheme,
+        elevatedButtonTheme: _elevatedButtonTheme,
+        scaffoldBackgroundColor: colorSchemeDark!.shark,
+        cardColor: _colorScheme.primary,
+      );
 
   ColorScheme get _colorScheme => ColorScheme(
-    brightness: colorSchemeDark!.brightnessDark,
-    primary: colorSchemeDark!.codGray,
-    onPrimary: colorSchemeDark!.alto,
-    secondary: colorSchemeDark!.mineShaft,
-    onSecondary: colorSchemeDark!.hitGray,
-    error: colorSchemeDark!.alizarinCrimson,
-    onError: colorSchemeDark!.mineShaft,
-    background: colorSchemeDark!.alto,
-    onBackground: colorSchemeDark!.silverSand,
-    surface: colorSchemeDark!.shark,
-    onSurface: colorSchemeDark!.hitGray,
-  );
+        brightness: colorSchemeDark!.brightnessDark,
+        primary: colorSchemeDark!.codGray,
+        onPrimary: colorSchemeDark!.alto,
+        secondary: colorSchemeDark!.mineShaft,
+        onSecondary: colorSchemeDark!.hitGray,
+        error: colorSchemeDark!.alizarinCrimson,
+        onError: colorSchemeDark!.mineShaft,
+        background: colorSchemeDark!.alto,
+        onBackground: colorSchemeDark!.silverSand,
+        surface: colorSchemeDark!.shark,
+        onSurface: colorSchemeDark!.hitGray,
+        onTertiary: colorSchemeDark!.buttonColor1,
+        tertiary: colorSchemeDark!.buttonColor2,
+        tertiaryContainer: colorSchemeDark!.bannerColor1,
+        onTertiaryContainer: colorSchemeDark!.bannerColor2,
+      );
 
   AppBarTheme get _appBarTheme => AppBarTheme(
-    backgroundColor: colorSchemeDark!.transparent,
-    systemOverlayStyle: colorSchemeDark!.systemOverlayStyle,
-    elevation: 0,
-    centerTitle: true,
-    titleTextStyle: TextStyle(color: _colorScheme.background),
-  );
+        backgroundColor: colorSchemeDark!.transparent,
+        systemOverlayStyle: colorSchemeDark!.systemOverlayStyle,
+        elevation: 0,
+        centerTitle: true,
+        titleTextStyle: TextStyle(color: _colorScheme.background),
+      );
 
   TabBarTheme get _tabBarTheme => TabBarTheme(
-    labelColor: _colorScheme.background,
-    unselectedLabelColor: _colorScheme.onSecondary,
-    labelStyle: const TextStyle(fontWeight: FontWeight.w700),
-    unselectedLabelStyle: const TextStyle(fontWeight: FontWeight.w700),
-    indicatorSize: TabBarIndicatorSize.tab,
-    indicator: UnderlineTabIndicator(
-      borderSide: BorderSide(
-        width: 2.0,
-        color: _colorScheme.background,
-      ),
-    ),
-  );
+        labelColor: _colorScheme.background,
+        unselectedLabelColor: _colorScheme.onSecondary,
+        labelStyle: const TextStyle(fontWeight: FontWeight.w700),
+        unselectedLabelStyle: const TextStyle(fontWeight: FontWeight.w700),
+        indicatorSize: TabBarIndicatorSize.tab,
+        indicator: UnderlineTabIndicator(
+          borderSide: BorderSide(
+            width: 2.0,
+            color: _colorScheme.background,
+          ),
+        ),
+      );
 
   InputDecorationTheme get _inputDecorationTheme => InputDecorationTheme(
-    fillColor: colorSchemeDark!.mineShaft,
-  );
+        fillColor: colorSchemeDark!.mineShaft,
+        hintStyle: TextStyle(color: _colorScheme.onSecondary, fontSize: 16),
+      );
 
   TextSelectionThemeData get _textSelectionTheme => TextSelectionThemeData(
-    cursorColor: _colorScheme.background,
-    selectionColor: _colorScheme.onSecondary,
-    selectionHandleColor: _colorScheme.background,
-  );
+        cursorColor: _colorScheme.background,
+        selectionColor: _colorScheme.onSecondary,
+        selectionHandleColor: _colorScheme.background,
+      );
 
   TextButtonThemeData get _textButtonTheme => TextButtonThemeData(
-      style: TextButton.styleFrom(
+          style: TextButton.styleFrom(
         foregroundColor: colorSchemeDark!.transparent,
         backgroundColor: _colorScheme.primary,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
@@ -83,7 +93,7 @@ class AppThemeDark extends AppTheme with IThemeDark {
       ));
 
   ElevatedButtonThemeData get _elevatedButtonTheme => ElevatedButtonThemeData(
-      style: ElevatedButton.styleFrom(
+          style: ElevatedButton.styleFrom(
         backgroundColor: colorSchemeDark!.transparent,
         foregroundColor: _colorScheme.background,
         shadowColor: _colorScheme.primary,

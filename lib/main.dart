@@ -1,3 +1,6 @@
+import 'dart:isolate';
+
+import 'package:android_alarm_manager_plus/android_alarm_manager_plus.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
@@ -12,6 +15,13 @@ import 'feature/splash/viewmodel/splash_viewmodel.dart';
 import 'product/constants/enums/string/string_constants.dart';
 import 'product/init/build/main_build.dart';
 
+@pragma('vm:entry-point')
+void printHello() {
+  final DateTime now = DateTime.now();
+  final int isolateId = Isolate.current.hashCode;
+  debugPrint("[$now] Hello, world! isolate=$isolateId function='$printHello'");
+}
+
 Future<void> main() async {
   await SplashViewModel().hiveInit();
   final productInit = ProductInit();
@@ -22,12 +32,15 @@ Future<void> main() async {
       path: productInit.localizationInit.path,
       fallbackLocale: productInit.localizationInit.defaultLocale,
       startLocale: productInit.localizationInit.defaultLocale,
-      child:  MultiProvider(
+      child: MultiProvider(
         providers: productInit.providers,
         builder: (context, child) => const MyApp(),
       ),
     ),
   );
+  const int helloAlarmID = 0;
+  await AndroidAlarmManager.periodic(
+      const Duration(minutes: 1), helloAlarmID, printHello);
 }
 
 class MyApp extends StatefulWidget {
@@ -38,7 +51,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-
   final _appRouter = AppRouter();
 
   @override
@@ -50,7 +62,8 @@ class _MyAppState extends State<MyApp> {
           builder: MainBuild.build,
           routerDelegate: _appRouter.delegate(),
           routeInformationParser: _appRouter.defaultRouteParser(),
-          theme: box.get(SozEBayStringConstants.settingsDarkMode, defaultValue: false)
+          theme: box.get(SozEBayStringConstants.settingsDarkMode,
+                  defaultValue: false)
               ? AppThemeDark.instance.theme
               : AppThemeLight.instance.theme,
           localizationsDelegates: context.localizationDelegates,

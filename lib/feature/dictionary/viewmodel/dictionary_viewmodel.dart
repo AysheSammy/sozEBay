@@ -1,65 +1,21 @@
-final List<Word> allWords = [
-  const Word(
-    lat: 'os frontalis  ',
-    tur: 'manlay sunki',
-    url: 'images/frontalis.png',
-  ),
-  const Word(
-    lat: 'os occipitalis  ',
-    tur: 'yense sunki',
-    url: 'images/occipitalis.png',
-  ),
-  const Word(
-    lat: 'os ethmaidalis',
-    tur: 'gozenekli sunk',
-    url: 'images/ethmoidalis.png',
-  ),
-  const Word(
-    lat: 'os frontalis  ',
-    tur: 'manlay sunki',
-    url: 'images/frontalis.png',
-  ),
-  const Word(
-    lat: 'os occipitalis  ',
-    tur: 'yense sunki',
-    url: 'images/occipitalis.png',
-  ),
-  const Word(
-    lat: 'os ethmaidalis  ',
-    tur: 'gozenekli sunk',
-    url: 'lib/assets/images/ethmoidalis.png',
-  ),
-  const Word(
-    lat: 'os frontalis  ',
-    tur: 'manlay sunki',
-    url: 'images/frontalis.png',
-  ),
-  const Word(
-    lat: 'os occipitalis',
-    tur: 'yense sunki',
-    url: 'images/occipitalis.png',
-  ),
-  const Word(
-    lat: 'os ethmaidalis  ',
-    tur: 'gozenekli sunk',
-    url: 'images/ethmoidalis.png',
-  ),
-  const Word(
-    lat: 'os frontalis  ',
-    tur: 'manlay sunki',
-    url: 'images/frontalis.png',
-  ),
-  const Word(
-    lat: 'os occipitalis  ',
-    tur: 'yense sunki',
-    url: 'images/occipitalis.png',
-  ),
-  const Word(
-    lat: 'os ethmaidalis  ',
-    tur: 'gozenekli sunk',
-    url: 'images/ethmoidalis.png',
-  ),
-];
+import 'dart:convert';
+import 'package:flutter/services.dart';
+
+late final List<Word> allWords;
+List<Word> wordsFromJson(String str) =>
+    List<Word>.from(json.decode(str).map((x) => Word.fromJson(x)));
+
+
+Future<List<Word>> readJson() async {
+  var response = await rootBundle.loadString("assets/words/words.json");
+
+  if (response.isNotEmpty) {
+    allWords = wordsFromJson(response);
+    return allWords;
+  } else {
+    return [];
+  }
+}
 
 List<String> searchResults = [];
 
@@ -81,4 +37,7 @@ class Word {
     required this.tur,
     required this.url,
   });
+
+  factory Word.fromJson(Map<String, dynamic> json) =>
+      Word(lat: json["lat"], tur: json["tur"], url: json["url"]);
 }

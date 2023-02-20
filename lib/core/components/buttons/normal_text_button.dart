@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'normal_button.dart';
 
 class TitleTextButton extends StatelessWidget {
-  const TitleTextButton({super.key, required this.text, this.onPressed, this.style});
+  const TitleTextButton(
+      {super.key, required this.text, this.onPressed, this.style});
+
   final VoidCallback? onPressed;
   final ButtonStyle? style;
   final String text;
@@ -12,7 +14,13 @@ class TitleTextButton extends StatelessWidget {
     return NormalButton(
       onPressed: onPressed,
       style: style,
-      child: Text(text),
+      child: Text(
+        text,
+        style: TextStyle(
+          fontSize: 14,
+          color: Theme.of(context).colorScheme.onSurface,
+        ),
+      ),
     );
   }
 }
