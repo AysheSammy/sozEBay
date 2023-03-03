@@ -17,11 +17,18 @@ class WordDetail extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 8),
             child: Column(
               children: <Widget>[
-                Image.asset(
-                  word.url,
-                  height: 400,
-                  width: double.infinity,
-                  fit: BoxFit.cover,
+                InteractiveViewer(
+                  panEnabled: false,
+                  // Set it to false
+                  boundaryMargin: const EdgeInsets.all(100),
+                  minScale: 0.5,
+                  maxScale: 2,
+                  child: Image.asset(
+                    word.url,
+                    height: 400,
+                    width: double.infinity,
+                    fit: BoxFit.cover,
+                  ),
                 ),
                 const SizedBox(height: 20),
                 Text(

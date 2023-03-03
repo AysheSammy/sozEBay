@@ -1,20 +1,17 @@
 import 'alarm_info.dart';
 
-final String tableAlarm = 'alarm';
-final String columnId = 'id';
-final String columnTitle = 'title';
-final String columnDateTime = 'alarmDateTime';
-final String columnPending = 'isPending';
-final String columnColorIndex = 'gradientColorIndex';
+const String tableAlarm = 'alarm';
+const String columnId = 'id';
+const String columnTitle = 'title';
+const String columnDateTime = 'alarmDateTime';
+const String columnPending = 'isPending';
 
 class AlarmHelper {
   static AlarmHelper? _alarmHelper;
 
   AlarmHelper._createInstance();
   factory AlarmHelper() {
-    if (_alarmHelper == null) {
-      _alarmHelper = AlarmHelper._createInstance();
-    }
+    _alarmHelper ??= AlarmHelper._createInstance();
     return _alarmHelper!;
   }
   //
@@ -38,8 +35,7 @@ class AlarmHelper {
   //         $columnId integer primary key autoincrement,
   //         $columnTitle text not null,
   //         $columnDateTime text not null,
-  //         $columnPending integer,
-  //         $columnColorIndex integer)
+  //         $columnPending integer)
   //       ''');
   //     },
   //   );

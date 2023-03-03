@@ -41,9 +41,9 @@ class WordSearchDelegate extends SearchDelegate {
     List<String> suggestions = searchResults.where((searchResult) {
       final result = searchResult.toLowerCase();
       final input = query.toLowerCase();
-
       return result.contains(input);
     }).toList();
+
     return FutureBuilder(
         future: readJson(),
         builder: (_, AsyncSnapshot<List<Word>> allWords) {

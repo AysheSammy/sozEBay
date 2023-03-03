@@ -25,6 +25,7 @@ class SplashViewModel extends ChangeNotifier with BaseViewModel {
   Future<void> hiveInit() async {
     await Hive.initFlutter();
     await Hive.openBox(SozEBayStringConstants.settings);
+    await Hive.openBox(SozEBayStringConstants.alarms);
   }
 
   Future<void> startAnimationOnView() async {

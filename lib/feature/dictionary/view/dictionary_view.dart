@@ -35,14 +35,12 @@ class _DictionaryViewState extends State<DictionaryView> {
             future: readJson(),
             builder: (_, AsyncSnapshot allWords) {
               if (allWords.connectionState == ConnectionState.waiting) {
-                debugPrint(allWords.toString());
                 return const CircularProgressIndicator();
               }
               return ListView.builder(
                 itemCount: allWords.data?.length ?? 0,
                 itemBuilder: (BuildContext context, int index) {
                   final word = allWords.data?[index] ?? [];
-                  debugPrint(word.toString());
                   if (word != []) {
                     return Card(
                       child: ListTile(

@@ -1,6 +1,6 @@
 {
-    "name": "dictionary",
-    "short_name": "dictionary",
+    "name": "SozeBay",
+    "short_name": "SozeBay",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

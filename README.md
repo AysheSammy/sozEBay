@@ -1,4 +1,4 @@
-# dictionary
+# sozebay
 
 A new Flutter project.
 
