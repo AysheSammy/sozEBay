@@ -7,6 +7,10 @@
     "settings": "Sazlamalar"
   },
 
+  "alarm": {
+    "noAlarms": "Täze alarm goş"
+  },
+
   "button": {
     "changeTheme": "Temany çalyş",
     "yes": "Hawa",
@@ -23,6 +27,7 @@
   },
 
   "settings": {
-    "language": "Dil"
+    "language": "Dil",
+    "allowNotification": "Duýduryşlara rugsat bermek"
   }
 }

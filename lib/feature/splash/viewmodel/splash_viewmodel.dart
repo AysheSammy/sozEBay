@@ -2,10 +2,11 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:kartal/kartal.dart';
-import 'package:sozEBay/product/init/navigator/app_router.dart';
+import 'package:sozEbay/product/init/navigator/app_router.dart';
 
 import '../../../core/base/model/base_view_model.dart';
 import '../../../product/constants/enums/string/string_constants.dart';
+import '../../alarm/viewmodel/alarm_model.dart';
 
 class SplashViewModel extends ChangeNotifier with BaseViewModel {
   @override
@@ -16,7 +17,7 @@ class SplashViewModel extends ChangeNotifier with BaseViewModel {
     startAnimationOnView();
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       hiveInit();
-      _nextView(const Duration(seconds: 1));
+      _nextView(const Duration(seconds: 2));
     });
   }
 
@@ -24,6 +25,7 @@ class SplashViewModel extends ChangeNotifier with BaseViewModel {
 
   Future<void> hiveInit() async {
     await Hive.initFlutter();
+    Hive.registerAdapter(AlarmAdapter());
     await Hive.openBox(SozEBayStringConstants.settings);
     await Hive.openBox(SozEBayStringConstants.alarms);
   }

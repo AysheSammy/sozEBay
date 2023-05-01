@@ -1,13 +1,20 @@
+import 'dart:ui';
+
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
+import 'package:sozEbay/feature/alarm/view/alarm_view.dart';
+import 'package:sozEbay/feature/alarm/viewmodel/alarm_init.dart';
 
 class AlarmInstance extends StatefulWidget {
+  final int id;
   final String label;
-  final String days;
+  final List days;
   final String alarmTime;
   bool isActive;
 
   AlarmInstance({
     super.key,
+    required this.id,
     required this.label,
     required this.days,
     required this.alarmTime,
@@ -21,33 +28,23 @@ class AlarmInstance extends StatefulWidget {
 class _AlarmInstanceState extends State<AlarmInstance> {
   @override
   Widget build(BuildContext context) {
+    String activeDays = '';
+    List engDays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+
+    for (int i = 0; i < widget.days.length; i++) {
+      if (widget.days[i]) {
+        activeDays == "" ? activeDays += engDays[i] : activeDays += ', ' + engDays[i];
+      }
+    }
     return Container(
-      padding: const EdgeInsets.all(20),
-      margin: const EdgeInsets.only(bottom: 10),
       width: MediaQuery.of(context).size.width,
       height: 140,
-      decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),
-          // color: Colors.transparent,
-          boxShadow: [
-            const BoxShadow(
-              color: Colors.black54,
-            ),
-            BoxShadow(
-              color: Theme.of(context).backgroundColor,
-              spreadRadius: -6.0,
-              blurRadius: 6.0,
-            ),
-            const BoxShadow(
-              color: Color.fromRGBO(155, 155, 155, 0.25),
-              blurRadius: 10,
-              offset: Offset(-3, -3),
-            ),
-            const BoxShadow(
-              color: Color.fromRGBO(155, 155, 155, 0.25),
-              blurRadius: 10,
-              offset: Offset(3, 3),
-            ),
-          ]),
+      padding: const EdgeInsets.all(15.0),
+      margin: const EdgeInsets.only(bottom: 10),
+      decoration: BoxDecoration(
+        border: Border.all(color: Colors.grey),
+        borderRadius: BorderRadius.circular(20),
+      ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -72,16 +69,24 @@ class _AlarmInstanceState extends State<AlarmInstance> {
                   )
                 ],
               ),
-              Switch(
-                  value: widget.isActive,
-                  onChanged: (bool? value) {
-                    widget.isActive = !widget.isActive;
-                    setState(() {});
-                  }),
+              GestureDetector(
+                onTap: () {
+                  LocalAlarmSettings.deleteAlarmInstance(widget.id);
+                  Navigator.pushReplacement(
+                    context,
+                    MaterialPageRoute(builder: (context) => const AlarmView()),
+                  );
+                },
+                child: Icon(
+                  Icons.restore_from_trash_outlined,
+                  color: Theme.of(context).colorScheme.onPrimary,
+                  size: 30,
+                ),
+              )
             ],
           ),
           Text(
-            widget.days,
+            activeDays,
             style: TextStyle(
               color: Theme.of(context).colorScheme.onPrimary,
               fontSize: 16,
@@ -100,16 +105,16 @@ class _AlarmInstanceState extends State<AlarmInstance> {
                   fontWeight: FontWeight.w800,
                 ),
               ),
-              GestureDetector(
-                onTap: () {
-                  //  TODO: fill the action
+              Switch(
+                value: widget.isActive,
+                onChanged: (bool? value) {
+                  setState(() {
+                    widget.isActive = !widget.isActive;
+                    LocalAlarmSettings.inActivateAlarmInstance(widget.id);
+                    setState(() {});
+                  });
                 },
-                child: Icon(
-                  Icons.arrow_drop_down,
-                  color: Theme.of(context).colorScheme.onPrimary,
-                  size: 30,
-                ),
-              )
+              ),
             ],
           )
         ],

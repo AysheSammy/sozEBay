@@ -3,69 +3,69 @@
         "question": "ossa membri inferioris",
         "correctAns": "Aýagyň süňkleri",
         "answers": [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Aýagyň süňkleri",
+            "Çanaklyk guşaklygy",
+            "Çanaklyk süňkleri"
         ],
         "url": "assets/images/1.png"
     },
     {
         "question": "cingulum membri inferioris",
-        "correctAns": "Canaklyk guşaklygy",
+        "correctAns": "",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "But süňki",
+            "Aýagyň erkin böleginiň süňkleri",
+            "Canaklyk guşaklygy"
         ],
         "url": "assets/images/1.png"
     },
     {
         "question": "ossa coxae",
-        "correctAns": "çanaklyk süňkleri",
+        "correctAns": "Çanaklyk süňkleri",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Kiçi injik süňki",
+            "Çanaklyk süňkleri",
+            "Ýanbaş süňki"
         ],
         "url": "assets/images/1.png"
     },
     {
         "question": "skeleton membri inferioris liberi",
-        "correctAns": "aýagyň erkin böleginiň süňkleri",
+        "correctAns": "Aýagyň erkin böleginiň süňkleri",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Ýanbaş süňküniň bedeni",
+            "Uly injik süňki",
+            "Aýagyň erkin böleginiň süňkleri"
         ],
         "url": "assets/images/1.png"
     },
     {
         "question": "femur",
-        "correctAns": "but süňki",
+        "correctAns": "But süňki",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Çüýjüküsti joýa",
+            "Uly injik süňki",
+            "But süňki"
         ],
         "url": "assets/images/1.png"
     },
     {
         "question": "tibia",
-        "correctAns": "uly injik süňki",
+        "correctAns": "Uly injik süňki",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Uly injik süňki",
+            "Kiçi injik süňki",
+            "Ýanbaş süňki"
         ],
         "url": "assets/images/1.png"
     },
     {
         "question": "fibula",
-        "correctAns": "kiçi injik süňki",
+        "correctAns": "Kiçi injik süňki",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Buduň göni muskuly",
+            "Kiçi injik süňki",
+            "Çüýjüküsti joýa"
         ],
         "url": "assets/images/1.png"
     },
@@ -73,9 +73,9 @@
         "question": "os ilii (ilium)",
         "correctAns": "Ýanbaş süňki",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Ýanbaş süňküniň bedeni",
+            "Ýanbaş süňki",
+            "Daşky dodak"
         ],
         "url": "assets/images/2.png"
     },
@@ -83,99 +83,99 @@
         "question": "corpus ossis ilii",
         "correctAns": "Ýanbaş süňküniň bedeni",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Daşky dodak",
+            "Aralyk çyzyk",
+            "Ýanbaş süňküniň bedeni"
         ],
         "url": "assets/images/2.png"
     },
     {
         "question": "sulcus supra acetabularis",
-        "correctAns": "çüýjüküsti joýa ",
+        "correctAns": "Çüýjüküsti joýa",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Çüýjüküsti joýa",
+            "Ýaý görnüşli çyzyk",
+            "Çanaklyk süňkleri"
         ],
         "url": "assets/images/2.png"
     },
     {
         "question": "musculus rectus femoralis",
-        "correctAns": "buduň göni muskuly",
+        "correctAns": "Buduň göni muskuly",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Içki dodak",
+            "Ýanbaş süňküniň ganaty",
+            "Buduň göni muskuly"
         ],
         "url": "assets/images/2.png"
     },
     {
         "question": "linea arcuata",
-        "correctAns": "ýaý görnüşli çyzyk",
+        "correctAns": "Ýaý görnüşli çyzyk",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Ýaý görnüşli çyzyk",
+            "Pilçäniň gerşi",
+            "Içki dodak"
         ],
         "url": "assets/images/2.png"
     },
     {
         "question": "ala ossis ilii",
-        "correctAns": "ýanbaş süňküniň ganaty",
+        "correctAns": "Ýanbaş süňküniň ganaty",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Uly injik süňküniň bedeni",
+            "Gulak görnüşli bogun üsti",
+            "Ýanbaş süňküniň ganaty"
         ],
         "url": "assets/images/2.png"
     },
     {
         "question": "labium externum",
-        "correctAns": "daşky dodak",
+        "correctAns": "Daşky dodak",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Içki dodak",
+            "Uly injik süňki",
+            "Daşky dodak"
         ],
         "url": "assets/images/2.png"
     },
     {
         "question": "labium internum",
-        "correctAns": "içki dodak",
+        "correctAns": "Içki dodak",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Pilçäniň gerşi",
+            "Ýanbaş süňküniň ganaty",
+            "Içki dodak"
         ],
         "url": "assets/images/2.png"
     },
     {
         "question": "linea intermedia",
-        "correctAns": "aralyk çyzyk",
+        "correctAns": "Aralyk çyzyk",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Ýanbaş tümmüjigi",
+            "Aralyk çyzyk",
+            "Aralyk çyzyk"
         ],
         "url": "assets/images/2.png"
     },
     {
         "question": "tuberculum iliacum",
-        "correctAns": "ýanbaş tümmüjigi",
+        "correctAns": "Ýanbaş tümmüjigi",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Uly injik süňküniň bedeni",
+            "Uly otyrýer gädigi",
+            "Ýanbaş tümmüjigi"
         ],
         "url": "assets/images/2.png"
     },
     {
         "question": "incisura ischiadicus major",
-        "correctAns": "uly otyrýer gädigi",
+        "correctAns": "Uly otyrýer gädigi",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Buduň göni muskuly",
+            "Uly otyrýer gädigi",
+            "Pilçe"
         ],
         "url": "assets/images/2.png"
     },
@@ -183,9 +183,9 @@
         "question": "linea glutea posterior",
         "correctAns": "Yzky ýanbaş çyzygy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Daşky dodak",
+            "Gulak görnüşli bogun üsti",
+            "Yzky ýanbaş çyzygy"
         ],
         "url": "assets/images/2.png"
     },
@@ -193,79 +193,79 @@
         "question": "linea glutea anterior",
         "correctAns": "Öňdäki ýanbaş çyzygy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Pilçäniň gerşi",
+            "Öňdäki ýanbaş çyzygy",
+            "Içki dodak"
         ],
         "url": "assets/images/2.png"
     },
     {
         "question": "facies auricularis",
-        "correctAns": "gulak görnüşli bogun üsti",
+        "correctAns": "Gulak görnüşli bogun üsti",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Ýanbaş süňküniň ganaty",
+            "Buduň göni muskuly",
+            "Gulak görnüşli bogun üsti"
         ],
         "url": "assets/images/3.png"
     },
     {
         "question": "tuberositas iliaca",
-        "correctAns": "ýanbaş büdür-südürligi",
+        "correctAns": "Ýanbaş büdür-südürligi",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Gapdal we daş-gapdal ýumry",
+            "Ýanbaş büdür-südürligi",
+            "Uly injik süňküniň öňdäki gyrasy"
         ],
         "url": "assets/images/3.png"
     },
     {
         "question": "os oschii",
-        "correctAns": "Otyrýer süňki ",
+        "correctAns": "Otyrýer süňki",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Uly injik süňki",
+            "Daşky dodak",
+            "Otyrýer süňki"
         ],
         "url": "assets/images/3.png"
     },
     {
         "question": "corpus ossis ischii",
-        "correctAns": "otyrýer süňküniň bedeni",
+        "correctAns": "Otyrýer süňküniň bedeni",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Otyrýer süňküniň bedeni",
+            "Uly injik süňküniň bedeni",
+            "Akramion"
         ],
         "url": "assets/images/3.png"
     },
     {
         "question": "spina ischiadica",
-        "correctAns": "otyrýer gerşi",
+        "correctAns": "Otyrýer gerşi",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Otyrýer gerşi",
+            "Gapdal we daş-gapdal ýumry",
+            "Daşky dodak"
         ],
         "url": "assets/images/3.png"
     },
     {
         "question": "tuberculum obturatorium posterius",
-        "correctAns": "yzky ýapyjy tümmüjik",
+        "correctAns": "Yzky ýapyjy tümmüjik",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Yzky ýapyjy tümmüjik",
+            "Gulak görnüşli bogun üsti",
+            "Pilçe"
         ],
         "url": "assets/images/3.png"
     },
     {
         "question": "ramus inferior ossis pubis",
-        "correctAns": "gasyk süňküniň aşaky şahasy",
+        "correctAns": "Gasyk süňküniň aşaky şahasy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Gasyk süňki",
+            "Ýanbaş süňküniň ganaty",
+            "Gasyk süňküniň aşaky şahasy"
         ],
         "url": "assets/images/3.png"
     },
@@ -273,19 +273,19 @@
         "question": "os pubis",
         "correctAns": "Gasyk süňki",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Pilçäniň gerşi",
+            "Uly injik süňküniň öňdäki gyrasy",
+            "Gasyk süňki"
         ],
         "url": "assets/images/4.png"
     },
     {
         "question": "ramus superior ossis pubis",
-        "correctAns": "gasyk süňküniň ýokarky şahasy",
+        "correctAns": "Gasyk süňküniň ýokarky şahasy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Gasyk süňküniň ýokarky şahasy",
+            "Daşky dodak",
+            "Ýanbaş büdür-südürligi"
         ],
         "url": "assets/images/4.png"
     },
@@ -293,19 +293,19 @@
         "question": "corpus ossis pubis",
         "correctAns": "Gasyk süňküniň bedeni",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Gasyk süňküniň bedeni",
+            "Buduň göni muskuly",
+            "Otyrýer süňki"
         ],
         "url": "assets/images/4.png"
     },
     {
         "question": "pectin ossis pubis",
-        "correctAns": "gasyk süňküniň kekeji",
+        "correctAns": "Gasyk süňküniň kekeji",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Pilçäniň gerşi",
+            "Gasyk süňküniň kekeji",
+            "Ýanbaş büdür-südürligi"
         ],
         "url": "assets/images/4.png"
     },
@@ -313,19 +313,19 @@
         "question": "pelvis",
         "correctAns": "Çanaklyk",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Çanaklyk",
+            "Otyrýer süňki",
+            "Uly injik süňküniň bedeni"
         ],
         "url": "assets/images/5.png"
     },
     {
         "question": "cavitas pelvis",
-        "correctAns": "çanaklyk boşlugy",
+        "correctAns": "Çanaklyk boşlugy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Ýanbaş süňküniň ganaty",
+            "Çanaklyk boşlugy",
+            "Daşky dodak"
         ],
         "url": "assets/images/5.png"
     },
@@ -333,29 +333,29 @@
         "question": "pelvis major",
         "correctAns": "Uly çanaklyk",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Uly injik süňküniň bedeni",
+            "Uly çanaklyk",
+            "Otyrýer süňküniň bedeni"
         ],
         "url": "assets/images/5.png"
     },
     {
         "question": "linea terminalis",
-        "correctAns": "araçäk çyzygy",
+        "correctAns": "Araçäk çyzygy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Gulak görnüşli bogun üsti",
+            "Araçäk çyzygy",
+            "Gapdal we daş-gapdal ýumry"
         ],
         "url": "assets/images/5.png"
     },
     {
         "question": "promontorium",
-        "correctAns": "türre-bil çykyntgysy",
+        "correctAns": "Türre-bil çykyntgysy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Türre-bil çykyntgysy",
+            "Pilçäniň gerşi",
+            "Otyrýer gerşi"
         ],
         "url": "assets/images/5.png"
     },
@@ -363,59 +363,59 @@
         "question": "pelvis minor",
         "correctAns": "Kiçi çanaklyk",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Otyrýer süňki",
+            "Kiçi çanaklyk",
+            "Ýanbaş süňküniň ganaty"
         ],
         "url": "assets/images/5.png"
     },
     {
         "question": "angulus subpubicus",
-        "correctAns": "gasygasty burçy",
+        "correctAns": "Gasygasty burçy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Gasygasty burçy",
+            "Ýanbaş büdür-südürligi",
+            "Daşky dodak"
         ],
         "url": "assets/images/5.png"
     },
     {
         "question": "arcus subpubicus",
-        "correctAns": "gasyk ýaýyny",
+        "correctAns": "Gasyk ýaýyny",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Gapdal we daş-gapdal ýumry",
+            "Gasyk ýaýyny",
+            "Uly injik süňküniň bedeni"
         ],
         "url": "assets/images/5.png"
     },
     {
         "question": "apertura pelvis superior",
-        "correctAns": "çanaklygyň ýokarky aperanswerasy",
+        "correctAns": "Çanaklygyň ýokarky aperanswerasy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Otyrýer süňküniň bedeni",
+            "Buduň göni muskuly",
+            "Çanaklygyň ýokarky aperanswerasy"
         ],
         "url": "assets/images/5.png"
     },
     {
         "question": "apertura pelvica inferior",
-        "correctAns": "çanaklygyň kiçi aperanswerasy",
+        "correctAns": "Çanaklygyň kiçi aperanswerasy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Ýanbaş süňküniň ganaty",
+            "Çanaklygyň kiçi aperanswerasy",
+            "Pilçäniň gerşi"
         ],
         "url": "assets/images/5.png"
     },
     {
         "question": "axis pelvis",
-        "correctAns": "çanaklygyň oky",
+        "correctAns": "Çanaklygyň oky",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Otyrýer gerşi",
+            "Gulak görnüşli bogun üsti",
+            "Çanaklygyň oky"
         ],
         "url": "assets/images/5.png"
     },
@@ -423,9 +423,9 @@
         "question": "os femoris",
         "correctAns": "But süňki",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "But süňki",
+            "Ýanbaş büdür-südürligi",
+            "Gapdal we daş-gapdal ýumry"
         ],
         "url": "assets/images/6.png"
     },
@@ -433,19 +433,19 @@
         "question": "corpus ossis femoris",
         "correctAns": "But süňküniň bedeni",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Otyrýer süňki",
+            "But süňküniň bedeni",
+            "Uly injik süňküniň bedeni"
         ],
         "url": "assets/images/6.png"
     },
     {
         "question": "linea aspera",
-        "correctAns": "bitekiz çyzyk",
+        "correctAns": "Bitekiz çyzyk",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Ýanbaş süňküniň ganaty",
+            "Bitekiz çyzyk",
+            "Daşky dodak"
         ],
         "url": "assets/images/6.png"
     },
@@ -453,39 +453,39 @@
         "question": "labium questionerale",
         "correctAns": "Daş-gapdal dodagy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Daş-gapdal dodagy",
+            "Gulak görnüşli bogun üsti",
+            "Pilçäniň gerşi"
         ],
         "url": "assets/images/6.png"
     },
     {
         "question": "condylus questioneralis",
-        "correctAns": "daş-gapdal ýumrusy",
+        "correctAns": "Daş-gapdal ýumrusy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Içki dodak",
+            "Gapdal we daş-gapdal ýumry",
+            "Daş-gapdal ýumrusy"
         ],
         "url": "assets/images/6.png"
     },
     {
         "question": "tuberositas glutea",
-        "correctAns": "ýanbaş büdür-südürligine",
+        "correctAns": "Ýanbaş büdür-südürligine",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Ýanbaş büdür-südürligine",
+            "Otyrýer süňki",
+            "Buduň göni muskuly"
         ],
         "url": "assets/images/6.png"
     },
     {
         "question": "trochanter tertius",
-        "correctAns": "üçünji aýlawaç",
+        "correctAns": "Üçünji aýlawaç",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Üçünji aýlawaç",
+            "Ýanbaş süňküniň ganaty",
+            "Akramion"
         ],
         "url": "assets/images/6.png"
     },
@@ -493,69 +493,69 @@
         "question": "labium mediale",
         "correctAns": "Iç-gapdal dodagy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Pilçäniň gerşi",
+            "Iç-gapdal dodagy",
+            "Daşky dodak"
         ],
         "url": "assets/images/6.png"
     },
     {
         "question": "condylus medialis",
-        "correctAns": "iç-gapdal ýumrusyna",
+        "correctAns": "Iç-gapdal ýumrusyna",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Gapdal we daş-gapdal ýumry",
+            "Iç-gapdal ýumrusyna",
+            "Uly injik süňküniň öňdäki gyrasy"
         ],
         "url": "assets/images/6.png"
     },
     {
         "question": "facies poplitea",
-        "correctAns": "dyzasty üstüni",
+        "correctAns": "Dyzasty üstüni",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Gulak görnüşli bogun üsti",
+            "Dyzasty üstüni",
+            "Otyrýer süňki"
         ],
         "url": "assets/images/6.png"
     },
     {
         "question": "linea supracondylaris medialis et questioneralis",
-        "correctAns": "iç-gapdal we daş-gapdal ýumryüsti çyzyk",
+        "correctAns": "Iç-gapdal we daş-gapdal ýumryüsti çyzyk",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Buduň göni muskuly",
+            "Iç-gapdal we daş-gapdal ýumryüsti çyzyk",
+            "Ýanbaş süňküniň ganaty"
         ],
         "url": "assets/images/6.png"
     },
     {
         "question": "linea pectinea",
-        "correctAns": "geriş çyzygy",
+        "correctAns": "Geriş çyzygy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Uly injik süňküniň bedeni",
+            "Geriş çyzygy",
+            "Gapdal we daş-gapdal ýumry"
         ],
         "url": "assets/images/6.png"
     },
     {
         "question": "foramen nutricum",
-        "correctAns": "iýmitlendiriji deşik",
+        "correctAns": "Iýmitlendiriji deşik",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Iýmitlendiriji deşik",
+            "Pilçe",
+            "Pilçäniň gerşi"
         ],
         "url": "assets/images/6.png"
     },
     {
         "question": "canalis nutricius",
-        "correctAns": "iýmitlendiriji kanal",
+        "correctAns": "Iýmitlendiriji kanal",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Iýmitlendiriji kanal",
+            "Gulak görnüşli bogun üsti",
+            "Iýmitlendiriji kanal"
         ],
         "url": "assets/images/6.png"
     },
@@ -563,69 +563,69 @@
         "question": "trochanter major",
         "correctAns": "Uly aýlawaç",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Daşky dodak",
+            "Buduň göni muskuly",
+            "Uly aýlawaç"
         ],
         "url": "assets/images/7.png"
     },
     {
         "question": "fossa trochanterica",
-        "correctAns": "aýlawaç oýjagazy",
+        "correctAns": "Aýlawaç oýjagazy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Otyrýer süňki",
+            "Ýanbaş büdür-südürligi",
+            "Aýlawaç oýjagazy"
         ],
         "url": "assets/images/7.png"
     },
     {
         "question": "linea intertrochanterica",
-        "correctAns": "aýlawajara çyzyk",
+        "correctAns": "Aýlawajara çyzyk",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Aýlawajara çyzyk",
+            "Pilçäniň gerşi",
+            "Uly injik süňki"
         ],
         "url": "assets/images/7.png"
     },
     {
         "question": "linea pectinea",
-        "correctAns": "kekeç görnüşli çyzyga",
+        "correctAns": "Kekeç görnüşli çyzyga",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Ýanbaş süňküniň ganaty",
+            "Kekeç görnüşli çyzyga",
+            "Gapdal we daş-gapdal ýumry"
         ],
         "url": "assets/images/7.png"
     },
     {
         "question": "collum femoris",
-        "correctAns": "but süňküniň boýunjygy ",
+        "correctAns": "But süňküniň boýunjygy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Uly injik süňküniň öňdäki gyrasy",
+            "But süňküniň boýunjygy",
+            "Ýanbaş büdür-südürligi"
         ],
         "url": "assets/images/7.png"
     },
     {
         "question": "caput ossis femoris",
-        "correctAns": "but süňküniň kellesi",
+        "correctAns": "But süňküniň kellesi",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "But süňküniň kellesi",
+            "Daşky dodak",
+            "Gulak görnüşli bogun üsti"
         ],
         "url": "assets/images/7.png"
     },
     {
         "question": "fovea capitis ossis femoris",
-        "correctAns": "but süňküniň kellesiniň büdür-südür oýy",
+        "correctAns": "But süňküniň kellesiniň büdür-südür oýy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Buduň göni muskuly",
+            "But süňküniň kellesiniň büdür-südür oýy",
+            "Otyrýer süňki"
         ],
         "url": "assets/images/7.png"
     },
@@ -633,49 +633,49 @@
         "question": "epiphysis distalis femoris",
         "correctAns": "But süňküniň aşaky ýa-da distal soňy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Pilçäniň gerşi",
+            "Ýanbaş süňküniň ganaty",
+            "But süňküniň aşaky ýa-da distal soňy"
         ],
         "url": "assets/images/8.png"
     },
     {
         "question": "fossa intercondylaris",
-        "correctAns": "ýumryara oýy",
+        "correctAns": "Ýumryara oýy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Içki dodak",
+            "Ýanbaş büdür-südürligi",
+            "Ýumryara oýy"
         ],
         "url": "assets/images/8.png"
     },
     {
         "question": "linea intercondylaris",
-        "correctAns": "ýumryara çyzyk",
+        "correctAns": "Ýumryara çyzyk",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Ýumryara çyzyk",
+            "Gapdal we daş-gapdal ýumry",
+            "Buduň göni muskuly"
         ],
         "url": "assets/images/8.png"
     },
     {
         "question": "facies patellaris",
-        "correctAns": "dyzçanak üsti",
+        "correctAns": "Dyzçanak üsti",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Uly injik süňki",
+            "Dyzçanak üsti",
+            "Ýanbaş süňküniň ganaty"
         ],
         "url": "assets/images/8.png"
     },
     {
         "question": "tuberculum adductorium",
-        "correctAns": "getiriji tümmi",
+        "correctAns": "Getiriji tümmi",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Gulak görnüşli bogun üsti",
+            "Daşky dodak",
+            "Getiriji tümmi"
         ],
         "url": "assets/images/8.png"
     },
@@ -683,29 +683,29 @@
         "question": "patella",
         "correctAns": "Dyzçanak",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Dyzçanak",
+            "Ýanbaş süňküniň ganaty",
+            "Pilçäniň gerşi"
         ],
         "url": "assets/images/9.png"
     },
     {
         "question": "basis patellae",
-        "correctAns": ",dyzçanagyň esasy",
+        "correctAns": "Dyzçanagyň esasy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Otyrýer süňki",
+            "Gapdal we daş-gapdal ýumry",
+            "Dyzçanagyň esasy"
         ],
         "url": "assets/images/9.png"
     },
     {
         "question": "apex patellae",
-        "correctAns": "dyzçanagyň depesi",
+        "correctAns": "Dyzçanagyň depesi",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Ýanbaş büdür-südürligi",
+            "Uly injik süňküniň öňdäki gyrasy",
+            "Dyzçanagyň depesi"
         ],
         "url": "assets/images/9.png"
     },
@@ -713,9 +713,9 @@
         "question": "facies anterior",
         "correctAns": "Dyzçanagyň öňdäki üsti",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Buduň göni muskuly",
+            "Dyzçanagyň öňdäki üsti",
+            "Gulak görnüşli bogun üsti"
         ],
         "url": "assets/images/10.png"
     },
@@ -723,9 +723,9 @@
         "question": "facies articulares",
         "correctAns": "Dyzçanagyň bogun üsti",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Pilçe",
+            "Uly injik süňküniň bedeni",
+            "Dyzçanagyň bogun üsti"
         ],
         "url": "assets/images/10.png"
     },
@@ -733,9 +733,9 @@
         "question": "Tibia",
         "correctAns": "Uly injik süňki",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Uly injik süňki",
+            "Pilçäniň gerşi",
+            "Ýanbaş süňküniň ganaty"
         ],
         "url": "assets/images/11.png"
     },
@@ -743,9 +743,9 @@
         "question": "corpus tibia",
         "correctAns": "Uly injik süňküniň bedeni",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Gapdal we daş-gapdal ýumry",
+            "Gulak görnüşli bogun üsti",
+            "Uly injik süňküniň bedeni"
         ],
         "url": "assets/images/11.png"
     },
@@ -753,9 +753,9 @@
         "question": "margo anterior",
         "correctAns": "Uly injik süňküniň öňdäki gyrasy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Uly injik süňküniň öňdäki gyrasy",
+            "Buduň göni muskuly",
+            "Daşky dodak"
         ],
         "url": "assets/images/11.png"
     },
@@ -763,9 +763,9 @@
         "question": "tuberositas tibia",
         "correctAns": "Süňküniň büdür-südüri",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Süňküniň büdür-südüri",
+            "Ýanbaş büdür-südürligi",
+            "Akramion"
         ],
         "url": "assets/images/11.png"
     },
@@ -773,59 +773,59 @@
         "question": "extremitas superior seu epiphysis procsimalis tibiae",
         "correctAns": "Uly injik süňküniň ýokarky ýa-da proksimal soňy",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Pilçe",
+            "Daşky dodak",
+            "Uly injik süňküniň ýokarky ýa-da proksimal soňy"
         ],
         "url": "assets/images/12.png"
     },
     {
         "question": "condylus mediales et questioneralis",
-        "correctAns": "gapdal we daş-gapdal ýumry",
+        "correctAns": "Gapdal we daş-gapdal ýumry",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Gulak görnüşli bogun üsti",
+            "Gapdal we daş-gapdal ýumry",
+            "Pilçäniň gerşi"
         ],
         "url": "assets/images/12.png"
     },
     {
         "question": "eminentea intercondylaris",
-        "correctAns": "ýumryara belentlik",
+        "correctAns": "Ýumryara belentlik",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Buduň göni muskuly",
+            "Daş-gapdal ýumryara tümm",
+            "Ýumryara belentlik"
         ],
         "url": "assets/images/12.png"
     },
     {
         "question": "tuberculum intercondylare questionerale",
-        "correctAns": "daş-gapdal ýumryara tümm",
+        "correctAns": "Daş-gapdal ýumryara tümm",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Ýanbaş süňküniň ganaty",
+            "Uly injik süňküniň öňdäki gyrasy",
+            "Daş-gapdal ýumryara tümm"
         ],
         "url": "assets/images/12.png"
     },
     {
         "question": "area intercondylares anterior",
-        "correctAns": "öňdäki ýumryara giňişlik",
+        "correctAns": "Öňdäki ýumryara giňişlik",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Akramion",
+            "Öňdäki ýumryara giňişlik",
+            "Gapdal we daş-gapdal ýumry"
         ],
         "url": "assets/images/12.png"
     },
     {
         "question": "facies articularis superior",
-        "correctAns": "ýokarky bogun üsti",
+        "correctAns": "Ýokarky bogun üsti",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Gulak görnüşli bogun üsti",
+            "Içki dodak",
+            "Ýokarky bogun üsti"
         ],
         "url": "assets/images/12.png"
     },
@@ -833,9 +833,9 @@
         "question": "scapula",
         "correctAns": "Pilçe",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Otyrýer gerşi",
+            "Pilçe",
+            "Ýanbaş büdür-südürligi"
         ],
         "url": "assets/images/13.png"
     },
@@ -843,19 +843,19 @@
         "question": "Acramion",
         "correctAns": "Akramion",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Daşky dodak",
+            "Akramion",
+            "Uly injik süňküniň öňdäki gyrasy"
         ],
         "url": "assets/images/13.png"
     },
     {
         "question": "Spina scapulae",
-        "correctAns": "pilçäniň gerşi",
+        "correctAns": "Pilçäniň gerşi",
         "answers":  [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3"
+            "Ýanbaş süňküniň ganaty",
+            "Pilçäniň gerşi",
+            "Buduň göni muskuly"
         ],
         "url": "assets/images/13.png"
     }

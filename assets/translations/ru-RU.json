@@ -6,6 +6,9 @@
     "alarm": "Будильник",
     "settings": "Настройки"
   },
+  "alarm": {
+    "noAlarms": "Добавить новый будильник"
+  },
   "button": {
     "changeTheme": "Изменить тему",
     "yes": "Да",
@@ -20,6 +23,7 @@
     "reset": "Перезагрузить."
   },
   "settings": {
-    "language": "Язык"
+    "language": "Язык",
+    "allowNotification": "Разрешить уведомления"
   }
 }

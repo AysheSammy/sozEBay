@@ -1,10 +1,10 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:sozEBay/feature/alarm/view/alarm_view.dart';
-import 'package:sozEBay/feature/dictionary/view/dictionary_view.dart';
-import 'package:sozEBay/feature/notification/view/notifications_view.dart';
-import 'package:sozEBay/feature/settings/view/settings_view.dart';
+import 'package:sozEbay/feature/alarm/view/alarm_view.dart';
+import 'package:sozEbay/feature/dictionary/view/dictionary_view.dart';
+import 'package:sozEbay/feature/notification/view/notifications_view.dart';
+import 'package:sozEbay/feature/settings/view/settings_view.dart';
 
 import '../../../product/constants/enums/string/string_constants.dart';
 import '../../../product/init/language/locale_keys.g.dart';

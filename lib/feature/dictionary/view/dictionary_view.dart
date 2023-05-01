@@ -1,6 +1,9 @@
+import 'dart:convert';
+
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:sozEBay/product/init/language/locale_keys.g.dart';
+import 'package:flutter/services.dart';
+import 'package:sozEbay/product/init/language/locale_keys.g.dart';
 import '../viewmodel/dictionary_viewmodel.dart';
 
 import '../viewmodel/search_delegate.dart';
@@ -15,6 +18,26 @@ class DictionaryView extends StatefulWidget {
 }
 
 class _DictionaryViewState extends State<DictionaryView> {
+  List words = [];
+
+  Future<void> readJson() async {
+    final String response = await rootBundle.loadString("assets/words/notification.json");
+
+    if (response.isNotEmpty) {
+      final data = await json.decode(response);
+      GetWordsFromJson().allWords = data["items"];
+      setState(() {
+        words = data["items"];
+      });
+    }
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    readJson();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,26 +54,19 @@ class _DictionaryViewState extends State<DictionaryView> {
         ],
       ),
       body: SafeArea(
-        child: FutureBuilder(
-            future: readJson(),
-            builder: (_, AsyncSnapshot allWords) {
-              if (allWords.connectionState == ConnectionState.waiting) {
-                return const CircularProgressIndicator();
-              }
-              return ListView.builder(
-                itemCount: allWords.data?.length ?? 0,
-                itemBuilder: (BuildContext context, int index) {
-                  final word = allWords.data?[index] ?? [];
-                  if (word != []) {
-                    return Card(
+        child: SingleChildScrollView(
+          child: Column(
+            children: List.generate(
+                words.length,
+                (index) => Card(
                       child: ListTile(
                         leading: CircleAvatar(
                           radius: 30,
                           backgroundColor: Colors.teal,
-                          backgroundImage: ExactAssetImage(word.url),
+                          backgroundImage: ExactAssetImage(words[index][2]),
                         ),
                         title: Text(
-                          word.lat.toString().toCapitalized(),
+                          words[index][0].toString().toCapitalized(),
                           style: TextStyle(
                             fontSize: 14,
                             fontWeight: FontWeight.bold,
@@ -58,7 +74,7 @@ class _DictionaryViewState extends State<DictionaryView> {
                           ),
                         ),
                         subtitle: Text(
-                          word.tur.toString().toCapitalized(),
+                          words[index][1].toString().toCapitalized(),
                           style: TextStyle(
                             fontSize: 14,
                             color: Theme.of(context).colorScheme.onPrimary,
@@ -70,25 +86,13 @@ class _DictionaryViewState extends State<DictionaryView> {
                         ),
                         onTap: () {
                           Navigator.of(context).push(MaterialPageRoute(
-                            builder: (context) => WordDetail(word: word),
+                            builder: (context) => WordDetail(word: words[index]),
                           ));
                         },
                       ),
-                    );
-                  } else {
-                    return Center(
-                      child: Text(
-                        LocaleKeys.info_notFound.tr(),
-                        style: TextStyle(
-                          fontSize: 18,
-                          color: Theme.of(context).colorScheme.onPrimary,
-                        ),
-                      ),
-                    );
-                  }
-                },
-              );
-            }),
+                    )),
+          ),
+        ),
       ),
     );
   }

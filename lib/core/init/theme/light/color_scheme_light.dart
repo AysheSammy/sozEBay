@@ -36,7 +36,7 @@ class ColorSchemeLight {
 
   final Color fireFly = const Color(0xff0A151F);
   final Color riverBed = const Color(0xff293241);
-  final Color slateGray = const Color(0xff4A1C77);
+  final Color slateGray = const Color(0xff5e5c60);
 
   final Brightness brightnessLight = Brightness.light;
   final SystemUiOverlayStyle systemOverlayStyle = SystemUiOverlayStyle.light;

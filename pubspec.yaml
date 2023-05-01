@@ -46,6 +46,7 @@ flutter:
     - assets/images/
     - assets/translations/
     - assets/words/words.json
+    - assets/words/notification.json
 
   fonts:
     - family: SFPro

@@ -1,16 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:kartal/kartal.dart';
-import 'dictionary_viewmodel.dart';
 
 class WordDetail extends StatelessWidget {
-  final Word word;
+  final List word;
 
   const WordDetail({Key? key, required this.word}) : super(key: key);
 
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
-          title: Text(word.lat.toTitleCase()),
+          title: Text(word[0].toUpperCase()),
         ),
         body: Center(
           child: Padding(
@@ -24,7 +22,7 @@ class WordDetail extends StatelessWidget {
                   minScale: 0.5,
                   maxScale: 2,
                   child: Image.asset(
-                    word.url,
+                    word[2],
                     height: 400,
                     width: double.infinity,
                     fit: BoxFit.cover,
@@ -32,7 +30,7 @@ class WordDetail extends StatelessWidget {
                 ),
                 const SizedBox(height: 20),
                 Text(
-                  word.lat.toUpperCase(),
+                  word[0].toUpperCase(),
                   style: TextStyle(
                     fontSize: 40,
                     fontWeight: FontWeight.bold,
@@ -48,7 +46,7 @@ class WordDetail extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.only(top: 10),
                   child: Text(
-                    word.tur.toCapitalized(),
+                    word[1],
                     style: TextStyle(
                       fontSize: 25,
                       fontStyle: FontStyle.italic,

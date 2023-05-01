@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
-import 'package:sozEBay/core/init/theme/dark/color_scheme_dark.dart';
+import 'package:sozEbay/core/init/theme/dark/color_scheme_dark.dart';
 import '../../../core/base/view/base_view.dart';
 import '../viewmodel/splash_viewmodel.dart';
 

@@ -1,0 +1,434 @@
+{
+  "items": [
+    [
+      "ossa membri inferioris",
+      "Aýagyň süňkleri",
+      "assets/images/1.png"
+    ],
+    [
+      "cingulum membri inferioris",
+      "Çanaklyk guşaklygy",
+      "assets/images/1.png"
+    ],
+    [
+      "ossa coxae",
+      "Çanaklyk süňkleri",
+      "assets/images/1.png"
+    ],
+    [
+      "skeleton membri inferioris liberi",
+      "Aýagyň erkin böleginiň süňkleri",
+      "assets/images/1.png"
+    ],
+    [
+      "femur",
+      "But süňki",
+      "assets/images/1.png"
+    ],
+    [
+      "tibia",
+      "Uly injik süňki",
+      "assets/images/1.png"
+    ],
+    [
+      "fibula",
+      "Kiçi injik süňki",
+      "assets/images/1.png"
+    ],
+    [
+      "os ilii (ilium)",
+      "Ýanbaş süňki",
+      "assets/images/2.png"
+    ],
+    [
+      "corpus ossis ilii",
+      "Ýanbaş süňküniň bedeni",
+      "assets/images/2.png"
+    ],
+    [
+      "sulcus supra acetabularis",
+      "Çüýjüküsti joýa ",
+      "assets/images/2.png"
+    ],
+    [
+      "musculus rectus femoralis",
+      "Buduň göni muskuly",
+      "assets/images/2.png"
+    ],
+    [
+      "linea arcuata",
+      "Ýaý görnüşli çyzyk",
+      "assets/images/2.png"
+    ],
+    [
+      "ala ossis ilii",
+      "Ýanbaş süňküniň ganaty",
+      "assets/images/2.png"
+    ],
+    [
+      "labium externum",
+      "Daşky dodak",
+      "assets/images/2.png"
+    ],
+    [
+      "labium internum",
+      "Içki dodak",
+      "assets/images/2.png"
+    ],
+    [
+      "linea intermedia",
+      "Aralyk çyzyk",
+      "assets/images/2.png"
+    ],
+    [
+      "tuberculum iliacum",
+      "Ýanbaş tümmüjigi",
+      "assets/images/2.png"
+    ],
+    [
+      "incisura ischiadicus major",
+      "Uly otyrýer gädigi",
+      "assets/images/2.png"
+    ],
+    [
+      "linea glutea posterior",
+      "Yzky ýanbaş çyzygy",
+      "assets/images/2.png"
+    ],
+    [
+      "linea glutea anterior",
+      "Öňdäki ýanbaş çyzygy",
+      "assets/images/2.png"
+    ],
+    [
+      "facies auricularis",
+      "Gulak görnüşli bogun üsti",
+      "assets/images/3.png"
+    ],
+    [
+      "tuberositas iliaca",
+      "Ýanbaş büdür-südürligi",
+      "assets/images/3.png"
+    ],
+    [
+      "os oschii",
+      "Otyrýer süňki ",
+      "assets/images/3.png"
+    ],
+    [
+      "corpus ossis ischii",
+      "Otyrýer süňküniň bedeni",
+      "assets/images/3.png"
+    ],
+    [
+      "spina ischiadica",
+      "Otyrýer gerşi",
+      "assets/images/3.png"
+    ],
+    [
+      "tuberculum obturatorium posterius",
+      "Yzky ýapyjy tümmüjik",
+      "assets/images/3.png"
+    ],
+    [
+      "ramus inferior ossis pubis",
+      "Gasyk süňküniň aşaky şahasy",
+      "assets/images/3.png"
+    ],
+    [
+      "os pubis",
+      "Gasyk süňki",
+      "assets/images/4.png"
+    ],
+    [
+      "ramus superior ossis pubis",
+      "Gasyk süňküniň ýokarky şahasy",
+      "assets/images/4.png"
+    ],
+    [
+      "corpus ossis pubis",
+      "Gasyk süňküniň bedeni",
+      "assets/images/4.png"
+    ],
+    [
+      "pectin ossis pubis",
+      "Gasyk süňküniň kekeji",
+      "assets/images/4.png"
+    ],
+    [
+      "pelvis",
+      "Çanaklyk",
+      "assets/images/5.png"
+    ],
+    [
+      "cavitas pelvis",
+      "Çanaklyk boşlugy",
+      "assets/images/5.png"
+    ],
+    [
+      "pelvis major",
+      "Uly çanaklyk",
+      "assets/images/5.png"
+    ],
+    [
+      "linea terminalis",
+      "Araçäk çyzygy",
+      "assets/images/5.png"
+    ],
+    [
+      "promontorium",
+      "Türre-bil çykyntgysy",
+      "assets/images/5.png"
+    ],
+    [
+      "pelvis minor",
+      "Kiçi çanaklyk",
+      "assets/images/5.png"
+    ],
+    [
+      "angulus subpubicus",
+      "Gasygasty burçy",
+      "assets/images/5.png"
+    ],
+    [
+      "arcus subpubicus",
+      "Gasyk ýaýyny",
+      "assets/images/5.png"
+    ],
+    [
+      "apertura pelvis superior",
+      "Çanaklygyň ýokarky aperturasy",
+      "assets/images/5.png"
+    ],
+    [
+      "apertura pelvica inferior",
+      "Çanaklygyň kiçi aperturasy",
+      "assets/images/5.png"
+    ],
+    [
+      "axis pelvis",
+      "Çanaklygyň oky",
+      "assets/images/5.png"
+    ],
+    [
+      "os femoris",
+      "But süňki",
+      "assets/images/6.png"
+    ],
+    [
+      "corpus ossis femoris",
+      "But süňküniň bedeni",
+      "assets/images/6.png"
+    ],
+    [
+      "linea aspera",
+      "Bitekiz çyzyk",
+      "assets/images/6.png"
+    ],
+    [
+      "labium laterale",
+      "Daş-gapdal dodagy",
+      "assets/images/6.png"
+    ],
+    [
+      "condylus lateralis",
+      "Daş-gapdal ýumrusy",
+      "assets/images/6.png"
+    ],
+    [
+      "tuberositas glutea",
+      "Ýanbaş büdür-südürligine",
+      "assets/images/6.png"
+    ],
+    [
+      "trochanter tertius",
+      "Üçünji aýlawaç",
+      "assets/images/6.png"
+    ],
+    [
+      "labium mediale",
+      "Iç-gapdal dodagy",
+      "assets/images/6.png"
+    ],
+    [
+      "condylus medialis",
+      "Iç-gapdal ýumrusyna",
+      "assets/images/6.png"
+    ],
+    [
+      "facies poplitea",
+      "Dyzasty üstüni",
+      "assets/images/6.png"
+    ],
+    [
+      "linea supracondylaris medialis et lateralis",
+      "Iç-gapdal we daş-gapdal ýumryüsti çyzyk",
+      "assets/images/6.png"
+    ],
+    [
+      "linea pectinea",
+      "Geriş çyzygy",
+      "assets/images/6.png"
+    ],
+    [
+      "foramen nutricum",
+      "Iýmitlendiriji deşik",
+      "assets/images/6.png"
+    ],
+    [
+      "canalis nutricius",
+      "Iýmitlendiriji kanal",
+      "assets/images/6.png"
+    ],
+    [
+      "trochanter major",
+      "Uly aýlawaç",
+      "assets/images/7.png"
+    ],
+    [
+      "fossa trochanterica",
+      "Aýlawaç oýjagazy",
+      "assets/images/7.png"
+    ],
+    [
+      "linea intertrochanterica",
+      "Aýlawajara çyzyk",
+      "assets/images/7.png"
+    ],
+    [
+      "linea pectinea",
+      "Kekeç görnüşli çyzyga",
+      "assets/images/7.png"
+    ],
+    [
+      "collum femoris",
+      "But süňküniň boýunjygy",
+      "assets/images/7.png"
+    ],
+    [
+      "caput ossis femoris",
+      "But süňküniň kellesi",
+      "assets/images/7.png"
+    ],
+    [
+      "fovea capitis ossis femoris",
+      "But süňküniň kellesiniň büdür-südür oýy",
+      "assets/images/7.png"
+    ],
+    [
+      "epiphysis distalis femoris",
+      "But süňküniň aşaky ýa-da distal soňy",
+      "assets/images/8.png"
+    ],
+    [
+      "fossa intercondylaris",
+      "Ýumryara oýy",
+      "assets/images/8.png"
+    ],
+    [
+      "linea intercondylaris",
+      "Ýumryara çyzyk",
+      "assets/images/8.png"
+    ],
+    [
+      "facies patellaris",
+      "Dyzçanak üsti",
+      "assets/images/8.png"
+    ],
+    [
+      "tuberculum adductorium",
+      "Getiriji tümmi",
+      "assets/images/8.png"
+    ],
+    [
+      "patella",
+      "Dyzçanak",
+      "assets/images/9.png"
+    ],
+    [
+      "basis patellae",
+      "Dyzçanagyň esasy",
+      "assets/images/9.png"
+    ],
+    [
+      "apex patellae",
+      "Dyzçanagyň depesi",
+      "assets/images/9.png"
+    ],
+    [
+      "facies anterior",
+      "Dyzçanagyň öňdäki üsti",
+      "assets/images/10.png"
+    ],
+    [
+      "facies articulares",
+      "Dyzçanagyň bogun üsti",
+      "assets/images/10.png"
+    ],
+    [
+      "Tibia",
+      "Uly injik süňki",
+      "assets/images/11.png"
+    ],
+    [
+      "corpus tibia",
+      "Uly injik süňküniň bedeni",
+      "assets/images/11.png"
+    ],
+    [
+      "margo anterior",
+      "Uly injik süňküniň öňdäki gyrasy",
+      "assets/images/11.png"
+    ],
+    [
+      "tuberositas tibia",
+      "Süňküniň büdür-südüri",
+      "assets/images/11.png"
+    ],
+    [
+      "extremitas superior seu epiphysis procsimalis tibiae",
+      "Uly injik süňküniň ýokarky ýa-da proksimal soňy",
+      "assets/images/12.png"
+    ],
+    [
+      "condylus mediales et lateralis",
+      "Gapdal we daş-gapdal ýumry",
+      "assets/images/12.png"
+    ],
+    [
+      "eminentea intercondylaris",
+      "Ýumryara belentlik",
+      "assets/images/12.png"
+    ],
+    [
+      "tuberculum intercondylare laterale",
+      "Daş-gapdal ýumryara tümm",
+      "assets/images/12.png"
+    ],
+    [
+      "area intercondylares anterior",
+      "Öňdäki ýumryara giňişlik",
+      "assets/images/12.png"
+    ],
+    [
+      "facies articularis superior",
+      "Ýokarky bogun üsti",
+      "assets/images/12.png"
+    ],
+    [
+      "scapula",
+      "Pilçe",
+      "assets/images/13.png"
+    ],
+    [
+      "Acramion",
+      "Akramion",
+      "assets/images/13.png"
+    ],
+    [
+      "Spina scapulae",
+      "Pilçäniň gerşi",
+      "assets/images/13.png"
+    ]
+  ]
+}
