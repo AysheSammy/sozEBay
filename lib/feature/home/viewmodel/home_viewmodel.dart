@@ -34,7 +34,7 @@ class HomeViewModel {
     [
       LocaleKeys.home_settings.tr(),
       const SettingsView(),
-      Icons.settings_outlined,
+      Icons.build_outlined,
       Colors.white,
     ]
   ];

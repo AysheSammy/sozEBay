@@ -4,7 +4,7 @@
     "dictionary": "Словарь",
     "notifications": "Уведомления",
     "alarm": "Будильник",
-    "settings": "Настройки"
+    "settings": "О нас"
   },
   "alarm": {
     "noAlarms": "Добавить новый будильник"
@@ -25,5 +25,10 @@
   "settings": {
     "language": "Язык",
     "allowNotification": "Разрешить уведомления"
+  },
+  "notifications": {
+    "allowNotification": "Разрешить уведомления",
+    "descNotifications": "Если уведомления разрешены, вы будете знакомиться с новыми латинскими словами каждый день.",
+    "setNotifications": "Установить уведомление"
   }
 }

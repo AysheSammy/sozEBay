@@ -70,7 +70,7 @@ class LocalAlarmSettings {
       androidAllowWhileIdle: true,
     );
 
-    _flutterLocalNotificationsPlugin.periodicallyShow(id, title, 'body', RepeatInterval.values[1], notificationDetails)
+    _flutterLocalNotificationsPlugin.periodicallyShow(id, title, 'body', RepeatInterval.values[1], notificationDetails);
   }
 
   static void inActivateAlarmInstance(int id) {

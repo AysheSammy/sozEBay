@@ -21,7 +21,7 @@ class _DictionaryViewState extends State<DictionaryView> {
   List words = [];
 
   Future<void> readJson() async {
-    final String response = await rootBundle.loadString("assets/words/notification.json");
+    final String response = await rootBundle.loadString("assets/words/words.json");
 
     if (response.isNotEmpty) {
       final data = await json.decode(response);
@@ -42,7 +42,9 @@ class _DictionaryViewState extends State<DictionaryView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(LocaleKeys.home_dictionary.tr()),
+        title: Text(
+            LocaleKeys.home_dictionary.tr()
+        ),
         centerTitle: true,
         actions: [
           IconButton(

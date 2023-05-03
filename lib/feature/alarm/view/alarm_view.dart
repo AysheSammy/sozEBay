@@ -41,7 +41,9 @@ class _AlarmViewState extends State<AlarmView> {
         filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
         child: Scaffold(
           appBar: AppBar(
-            title: Text(LocaleKeys.home_alarm.tr()),
+            title: Text(
+                LocaleKeys.home_alarm.tr()
+            ),
           ),
           body: SingleChildScrollView(
             padding: const EdgeInsets.all(15),

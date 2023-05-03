@@ -4,7 +4,7 @@
     "dictionary": "Sözlük",
     "notifications": "Bildirişler",
     "alarm": "Alarm",
-    "settings": "Sazlamalar"
+    "settings": "Biz barada"
   },
 
   "alarm": {
@@ -29,5 +29,11 @@
   "settings": {
     "language": "Dil",
     "allowNotification": "Duýduryşlara rugsat bermek"
+  },
+
+  "notifications": {
+    "allowNotification": "Bildirişlere rugsat bermek",
+    "descNotifications": "Bildirişlere rugsat berilen ýagdaýynda gündelik täze latyn sözler bilen tanyş bolarsyňyz.",
+    "setNotifications": "Bildiriş goş"
   }
 }

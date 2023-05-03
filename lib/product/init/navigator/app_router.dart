@@ -12,12 +12,12 @@ part 'app_router.gr.dart';
 @MaterialAutoRouter(
   replaceInRouteName: 'View,Route',
   routes: <AutoRoute>[
-    AutoRoute(page: SplashView, path: '/', initial: true, name: 'SplashView'),
+    AutoRoute(page: SplashView, path: '/', initial: true),
     AutoRoute(page: HomeView, path: 'home', children: [
-      AutoRoute(page: DictionaryView, path: 'dictionary', name: 'DictionaryView'),
-      AutoRoute(page: NotificationsView, path: 'images', name: 'NotificationView'),
-      AutoRoute(page: AlarmView, path: 'alarm', name: 'AlarmView'),
-      AutoRoute(page: SettingsView, path: 'settings', name: 'SettingsView'),
+      AutoRoute(page: DictionaryView, path: 'dictionary'),
+      AutoRoute(page: NotificationsView, path: 'images'),
+      AutoRoute(page: AlarmView, path: 'alarm'),
+      AutoRoute(page: SettingsView, path: 'settings'),
     ]),
   ],
 )
