@@ -19,7 +19,7 @@ class _SettingsViewState extends State<SettingsView> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    curr_loc = Hive.box(SozEBayStringConstants.settings);
+    curr_loc = Hive.box(SozEBayStringConstants.currLocale).values.toList()[0].toString();
   }
 
   @override
@@ -34,10 +34,9 @@ class _SettingsViewState extends State<SettingsView> {
           child: Column(
             children: [
               Text(
-                curr_loc == const Locale('en_EN')
-                    ? 'Türkmenistanyň saglygy goraýyş we derman senagaty ministrligi \n Myrat Garryýew adyndaky Türkmenistanyň döwlet uniwersiteti\n\n Ylmy ýolbaşçy:\n   MerjenBerdiýewa Abdykerimowna\n\n Ýerine ýetirijiler:\n   Jennet Myradowa,\n   Nazar Gurbanow Döwletmyradowiç\n\n Internet adresimiz:\n   sozebay@gmail.com\n\nTelefon belgimiz:\n   +99361758902'
-                    : 'Türkmenistanyň saglygy goraýyş we derman senagaty ministrligi \n Myrat Garryýew adyndaky Türkmenistanyň döwlet uniwersiteti\n\n Ylmy ýolbaşçy:\n   MerjenBerdiýewa Abdykerimowna\n\n Ýerine ýetirijiler:\n   Jennet Myradowa,\n   Nazar Gurbanow Döwletmyradowiç\n\n Internet adresimiz:\n   sozebay@gmail.com\n\nTelefon belgimiz:\n   +99361758902',
-
+                curr_loc == 'en_EN'
+                    ? 'Türkmenistanyň saglygy goraýyş we derman senagaty ministrligi \n Myrat Garryýew adyndaky Türkmenistanyň döwlet uniwersiteti\n\n Ylmy ýolbaşçy:\n   Merjen Berdiýewa Abdykerimowna\n\n Ýerine ýetirijiler:\n   Jennet Myradowa Myradowna,\n   Nazar Gurbanow Döwletmyradowiç\n\n E-mail:\n   sozebay@gmail.com\n\nTelefon belgimiz:\n   +99361758902'
+                    : 'Министерство здравоохранения и медицинской промышленности Туркменистана \n ГОСУДАРСТВЕННЫЙ МЕДИЦИНСКИЙ УНИВЕРСИТЕТ ТУРКМЕНИСТАНА ИМЕНИ МЫРАТА ГАРРЫЕВА\n\n Научный руководитель:\n   Merjen Berdiýewa Abdykerimowna\n\n Руководители:\n   Jennet Myradowa Myradowna,\n   Nazar Gurbanow Döwletmyradowiç\n\n E-mail:\n   sozebay@gmail.com\n\nНаш номер телефона:\n   +99361758902',
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Theme.of(context).colorScheme.onPrimary),
               )
             ],

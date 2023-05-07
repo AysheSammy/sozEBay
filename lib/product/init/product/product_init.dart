@@ -1,4 +1,3 @@
-import 'package:android_alarm_manager_plus/android_alarm_manager_plus.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
@@ -27,7 +26,6 @@ class ProductInit {
     WidgetsFlutterBinding.ensureInitialized();
 
     await EasyLocalization.ensureInitialized();
-    await AndroidAlarmManager.initialize();
     await LocalAlarmSettings().initialize(flutterLocalNotificationsPlugin);
   }
 }

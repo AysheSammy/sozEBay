@@ -74,6 +74,5 @@ class DailyNotification {
     var notifications = Hive.box(SozEBayStringConstants.notifications);
     notifications.clear();
     _flutterLocalNotificationsPlugin.cancel(0);
-    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const NotificationsView()));
   }
 }

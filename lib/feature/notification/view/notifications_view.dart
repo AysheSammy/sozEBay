@@ -16,7 +16,7 @@ class NotificationsView extends StatefulWidget {
 
 class _NotificationsViewState extends State<NotificationsView> {
   DailyNotification dailyNotification = DailyNotification();
-
+  bool isRussian = false;
   int hour = 6;
   int minute = 0;
 
@@ -29,13 +29,13 @@ class _NotificationsViewState extends State<NotificationsView> {
       hour = notification.values.toList()[0][0];
       minute = notification.values.toList()[0][1];
     }
+    isRussian = Hive.box(SozEBayStringConstants.currLocale).values.toList()[0].toString() != 'en_EN';
   }
 
   bool isNotificationOn = true;
 
   @override
   Widget build(BuildContext context) {
-    bool isRussian = context.locale == const Locale('ru_RU');
 
     return Scaffold(
       appBar: AppBar(

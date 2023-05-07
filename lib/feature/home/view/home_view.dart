@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:sozEbay/core/constants/app/app_constants.dart';
 import 'package:sozEbay/core/init/theme/notifier/theme_notifier.dart';
@@ -81,6 +82,11 @@ class _HomeViewState extends State<HomeView> {
                                   ? const Locale('ru', 'RU')
                                   : const Locale('en', 'EN');
                               EasyLocalization.of(context)?.setLocale(newLocale);
+                              var curr_loc = Hive.box(SozEBayStringConstants.currLocale);
+                              while(curr_loc.isNotEmpty){
+                                curr_loc.deleteAt(0);
+                              }
+                              curr_loc.add(context.locale.toString());
                             });
                           },
                           child: SvgPicture.asset(

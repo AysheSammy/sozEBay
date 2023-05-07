@@ -27,7 +27,8 @@ class SplashViewModel extends ChangeNotifier with BaseViewModel {
     await Hive.initFlutter();
     Hive.registerAdapter(AlarmAdapter());
     await Hive.openBox(SozEBayStringConstants.settings);
-    Hive.box(SozEBayStringConstants.settings).add(const Locale("en_EN"));
+    await Hive.openBox(SozEBayStringConstants.currLocale);
+    Hive.box(SozEBayStringConstants.currLocale).add("en_EN");
     await Hive.openBox(SozEBayStringConstants.notifications);
     await Hive.openBox(SozEBayStringConstants.alarms);
   }

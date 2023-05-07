@@ -21,9 +21,9 @@ class LocalAlarmSettings {
       initializationSettings,
       onDidReceiveBackgroundNotificationResponse: notificationTapBackground,
     );
-    flutterLocalNotificationsPlugin
-        .resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>()!
-        .requestPermission();
+    // flutterLocalNotificationsPlugin
+    //     .resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>()!
+    //     .requestPermission();
   }
 
   static void notificationTapBackground(NotificationResponse details) {}
@@ -43,18 +43,18 @@ class LocalAlarmSettings {
     int id = Hive.box(SozEBayStringConstants.alarms).values.length;
 
     AndroidNotificationDetails androidNotificationDetails = const AndroidNotificationDetails(
-      'sozBayDailyNotification', 'channelName',
-      importance: Importance.max,
-      priority: Priority.high,
-      visibility: NotificationVisibility.public,
-      playSound: true,
-      fullScreenIntent: true,
-      color: Colors.blue,
-      enableLights: true,
-      enableVibration: true,
-      ongoing: true
-      // largeIcon: FilePathAndroidBitmap(_items[2]),
-    );
+        'sozBayDailyNotification', 'channelName',
+        importance: Importance.max,
+        priority: Priority.high,
+        visibility: NotificationVisibility.public,
+        playSound: true,
+        fullScreenIntent: true,
+        color: Colors.blue,
+        enableLights: true,
+        enableVibration: true,
+        ongoing: true
+        // largeIcon: FilePathAndroidBitmap(_items[2]),
+        );
     NotificationDetails notificationDetails = NotificationDetails(android: androidNotificationDetails);
     tz.initializeTimeZones();
     tz.setLocalLocation(tz.getLocation('Asia/Ashgabat'));
@@ -70,7 +70,13 @@ class LocalAlarmSettings {
       androidAllowWhileIdle: true,
     );
 
-    _flutterLocalNotificationsPlugin.periodicallyShow(id, title, 'body', RepeatInterval.values[1], notificationDetails);
+    _flutterLocalNotificationsPlugin.periodicallyShow(
+      id,
+      title,
+      'body',
+      RepeatInterval.values[1],
+      notificationDetails,
+    );
   }
 
   static void inActivateAlarmInstance(int id) {
